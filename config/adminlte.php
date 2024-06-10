@@ -308,7 +308,11 @@ return [
             'icon_color' => 'red',
             'url'        => '#',
         ],
-        
+        [
+            'text'       => 'REPORTES',
+            'icon_color' => 'GREEN',
+            'url'        => '#',
+        ],
         [
             'text'       => 'warning',
             'icon_color' => 'yellow',

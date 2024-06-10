@@ -1,0 +1,99 @@
+/* Estilos personalizados para el formulario de gestión de inventario */
+.container {
+    max-width: 900px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los campos del formulario */
+form .form-group label {
+    font-weight: bold;
+    color: #495057;
+}
+
+form .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-shadow: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+form .form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Botón de enviar */
+form .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+form .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Tabla de inventario */
+.table {
+    margin-top: 20px;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.table th, .table td {
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+    font-weight: bold;
+}
+
+.table tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2;
+}
+
+.table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+.table tbody td {
+    border-top: 1px solid #dee2e6;
+}
+
+.table tfoot td {
+    font-weight: bold;
+    background-color: #f8f9fa;
+}
+
+/* Validación del formulario */
+.was-validated .form-control:invalid {
+    border-color: #dc3545;
+}
+
+.was-validated .form-control:invalid:focus {
+    border-color: #dc3545;
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+.was-validated .form-control:valid {
+    border-color: #28a745;
+}
+
+.was-validated .form-control:valid:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}

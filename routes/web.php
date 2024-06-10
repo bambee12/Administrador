@@ -10,3 +10,4 @@ Route::get('/', function () {
 Route::get('/inventario', function () {
     return view('gestion_inventario');
 })->name('gestion_inventario');
+
