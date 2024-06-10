@@ -308,6 +308,7 @@ return [
             'icon_color' => 'red',
             'url'        => '#',
         ],
+        
         [
             'text'       => 'warning',
             'icon_color' => 'yellow',
