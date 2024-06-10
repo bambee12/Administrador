@@ -18,3 +18,7 @@ Route::get('/cotizaeven', function () {
 Route::get('/cotizaflor', function () {
     return view('cotizaflor');
 })->name('cotizaflor');
+
+Route::get('/reportes', function () {
+    return view('reportes');
+})->name('reportes');
