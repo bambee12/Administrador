@@ -277,32 +277,20 @@ return [
                     'url'  => '#',
                     'submenu' => [
                         [
-                            'text' => 'level_two',
-                            'url'  => '#',
+                            'text' => 'Cotizacion de eventos',
+                            'url'  => 'cotizaeven',
                         ],
                         [
-                            'text'    => 'level_two',
-                            'url'     => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                            ],
+                            'text'    => 'Cotizacion Encargos',
+                            'url'     => 'cotizaflor',
+                            
                         ],
                     ],
                 ],
-                [
-                    'text' => 'level_one',
-                    'url'  => '#',
-                ],
+                
             ],
         ],
-        ['header' => 'labels'],
+        ['header' => ''],
         [
             'text'       => 'important',
             'icon_color' => 'red',

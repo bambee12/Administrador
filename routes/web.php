@@ -11,3 +11,10 @@ Route::get('/inventario', function () {
     return view('gestion_inventario');
 })->name('gestion_inventario');
 
+Route::get('/cotizaeven', function () {
+    return view('cotizacioneseven');
+})->name('cotizacioneseven');
+
+Route::get('/cotizaflor', function () {
+    return view('cotizaflor');
+})->name('cotizaflor');
