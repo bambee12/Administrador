@@ -301,6 +301,13 @@ return [
             'icon_color' => 'GREEN',
             'url'        => 'reportes',
         ],
+
+        [
+            'text'       => 'login',
+            'icon_color' => 'GREEN',
+            'url'        => 'login',
+        ],
+        
         // [
         //     'text'       => 'warning',
         //     'icon_color' => 'yellow',

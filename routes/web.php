@@ -22,3 +22,7 @@ Route::get('/cotizaflor', function () {
 Route::get('/reportes', function () {
     return view('reportes');
 })->name('reportes');
+
+Route::get('/login', function () {
+    return view('login');
+})->name('login');
